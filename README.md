@@ -1,4 +1,4 @@
-# SOLID Principles
+# SOLID Design Principles
 
 ---
 
@@ -39,7 +39,7 @@ class cat
     }
 }
 ```
-
+---
 ## 2. Open Closed Principal (OCP):
 **Open for extension but closed for modifications means add new features without changing existing code**
 
@@ -94,7 +94,7 @@ class AnimalSound
     }
 }
 ```
-
+---
 ## 3. Liskov Subsitute Principal (LSP):
 **Subclass can replace parent class without breaking parent class behaviour.**
 
@@ -140,7 +140,7 @@ class Cat extends Animal
 ```
 
 **here sub class is not breaking the parent clas behaviour because dog and cat can make sound also they can eat.**
-
+---
 ## 4. Interface Segregation Principal (ISP):
 **Class should not be forced to use interface that they do not use**
 
@@ -191,7 +191,7 @@ class Bird implements flyInterface
     }
 }
 ```
-
+---
 ## 5. Dependency Inversion Principal (DIP):
 **High level module should not be depend on low level module.**
 
